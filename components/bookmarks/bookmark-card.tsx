@@ -54,7 +54,7 @@ export default function BookmarkCard({ id, url, title, favicon, summary, tags }:
     <Card className="h-full flex flex-col">
       <CardHeader className="pb-2">
         <div className="flex items-start justify-between">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 min-w-0">
             {favicon ? (
               <div className="relative w-6 h-6 flex-shrink-0">
                 <Image
@@ -72,7 +72,7 @@ export default function BookmarkCard({ id, url, title, favicon, summary, tags }:
             ) : (
               <div className="w-6 h-6 bg-gray-200 rounded-full flex-shrink-0" />
             )}
-            <CardTitle className="text-lg truncate">{title}</CardTitle>
+            <CardTitle className="text-lg truncate whitespace-nowrap overflow-hidden text-ellipsis">{title}</CardTitle>
           </div>
         </div>
         <CardDescription className="text-xs">{domain}</CardDescription>
