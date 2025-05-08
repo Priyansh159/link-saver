@@ -41,9 +41,9 @@ To run the project locally, follow these steps:
    cd link-saver
    
 2. **Install the dependencies:**
-
+    ```bash
    npm i
    
 3. **Run:**
-
+    ```bash
    npm run dev
