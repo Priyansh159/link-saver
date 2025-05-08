@@ -5,6 +5,7 @@ Link Saver is a minimalist web application designed to help users save, manage, 
 ## 🚀 Live Demo
 
 Check out the live version here: [link-saver-ten.vercel.app](https://link-saver-ten.vercel.app)
+  it may take some time to load the data on the dashboard 
 
 ## Login Credentials
   if any error occurs you can use my login credentials
@@ -22,6 +23,7 @@ Check out the live version here: [link-saver-ten.vercel.app](https://link-saver-
 ## 📸 Screenshots
 
 *Include screenshots of the application here to showcase its interface and features.*
+
 
 ## 🧰 Tech Stack
 
